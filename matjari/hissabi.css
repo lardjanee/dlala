@@ -1,0 +1,14 @@
+
+.banner-box{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-image: url(image/17.webp);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+  
+}

@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: radial-gradient(#fff,#ffd6d6);
+  
+}
+.mo7tawa{
+    margin: 10px;
+}
+.container{
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    
+}
+.logo {
+
+    margin-top: -0px;
+}
+.im{
+    width: 80px;
+    height: 80px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: radial-gradient(#fff,#ffd6d6);
+    height: 60px;
+
+  
+    
+}
+
+nav{
+    text-align: center;
+    flex: 1;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: -60px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px
+    
+}
+ nav ul li   a {
+    text-decoration: none;
+    color: orangered;
+     font-family: 'Cairo', sans-serif;
+     font-size: 25px;
+     padding: 5px;
+}
+nav ul li  :hover {
+    color: black;
+    font-size: 32px;
+    transition: 0.6s;
+
+}
+
+
+
+
+
+
+
+.xbar .but1 , .but2{
+    height: 60px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: orangered;
+    border: 1px solid white;
+    font-family:'Cairo', sans-serif; 
+    font-size: 17px   ;
+    color: white;
+    
+}
+.but1, .but2 {
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+}
+.xbar{
+    margin-top: 1%;
+}
+.xbar .but1 a , .but2 a{
+    color: #fff;
+    text-decoration: none;
+
+
+}
+.xbar   :hover{
+    background-color: black;
+    transition: 0.1s;
+    
+    
+}
+.xbar{
+    margin-top: 1%;
+}
+#sl3a1{
+    text-align: center;
+    font-family: 'popins', sans-serif;
+    margin-top: 2%;
+    
+}
+h2,p{
+    font-family: 'Cairo' ,sans-serif;
+}
+h2{
+    font-size: 30px;
+}
+.tot{
+    margin-top: 200px;
+}
+#sl3a1 .pro{
+    width: 21%;
+    min-width: 150px;
+    padding: 10px 12px;
+    border: 2px solid #45b09e;
+    border-radius: 27px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0, 0, 0.02);
+    margin-top: 20px;
+    transition: 0.2s  ease;
+    position: relative;
+
+}
+#sl3a1 .pro:hover{
+    box-shadow: 20px 20px 30px orangered;
+}
+#sl3a1 .pro img{
+    width: 100%;
+    border-radius: 22px;
+}
+#sl3a1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+#sl3a1 .pro  .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#sl3a1 .pro .des h5 {
+    font-size: 14px;
+    padding: 8px;
+    color: #1a1a1a;
+}
+#sl3a1 .pro .des i{
+    font-size: 12px;
+    color: orange;
+}
+#sl3a1 .pro .des h4{
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #088178;
+}
+#sl3a1 .pro .salla{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #45b09e;
+    
+    color: #fff;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+ #sl3a1 .pro-cont {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+form .inp{
+    height: 28px;
+    width: 482.63px;
+    position: absolute;
+    margin-top: 15px;
+   
+    
+    direction: rtl;
+    outline: none;
+    border: none;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    
+    
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    padding: 10px 1px 10px 16px;
+    
+}
+.inp ::placeholder {
+    margin-left: 10px;
+}
+form{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    height: 64px;
+    width: 694px;
+    margin: 0 0;
+    border: orangered solid 2px;
+    border-radius: 30px;
+    margin-top: 80px;
+    
+    
+}
+.searche{
+    margin-left: 520px;
+    margin-top: 20px;
+    position:static;
+    font-size: 20px;
+    color: orangered;
+}
+.btn{
+    height: 60px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: orangered;
+    border: 1px solid white;
+    font-family:'Cairo', sans-serif; 
+    font-size: 23px   ;
+    color: white;
+    
+    
+    
+    
+
+}
+

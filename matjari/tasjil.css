@@ -1,0 +1,185 @@
+body{
+    background-image: url(image/35.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    
+
+    
+    font-family: 'Cairo', sans-serif;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.div{
+    display: block;
+}
+
+
+
+
+.box{  
+    width: 620px;
+    height: 800px;
+    background-color: #45b09e;
+    padding: 30px;
+    position: scroll;
+    margin-left: 27%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    border-radius:40px ;
+   }
+   .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    margin-top: -21%;
+    margin-left: 230px;
+    
+    position: scroll;
+   
+   }
+   .box .h3{
+    text-align: left;
+    
+
+    margin-top: 9%;
+    margin-left: 190px;
+    color:#fff;
+    
+    font-family: 'Cairo', sans-serif;
+
+   }
+    .num1{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        
+        margin-left: 120px;
+        
+    }
+    input{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        font-family: 'Cairo', sans-serif;
+        border-radius: 25px;
+        direction: rtl;
+        outline: none;
+        border: none;
+        padding: 10px;
+
+    }
+    .box .h2{
+        text-align: center;
+        color: #fff;
+        
+    }
+    button{
+        margin-left: 120px;
+        width: 300px;
+        height: 60px;
+        background-color: rgb(255, 102, 0);
+        border-radius: 20px;
+        font-size: 25px;
+        font-family: 'Cairo', sans-serif;
+        border: none;
+        
+        
+    }
+    button a {
+        text-decoration: none;
+        color: #000;
+    }
+    hr{
+        margin-top: 30px;
+        color: #000;
+    }
+    button:hover{
+        background-color: blanchedalmond;
+        
+    }
+    aside{
+        margin-top: 30px;
+        
+        
+        
+    }
+    .rojo {
+        background: none;
+        font-size: 30px;
+        color: #fff;
+        
+        
+        
+
+    }
+    .rojo:hover{
+        background: none;
+    }
+    footer{
+        background-color: #002;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-family: 'Cairo' , sans-serif;
+        margin-top: 50px;
+        
+    
+    
+    
+    }
+    footer .col {
+        
+        display: flex;
+        flex-direction: column;
+        align-items:  flex-end ;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+      .copy{
+       
+        margin-top: 200px;
+        margin-right: 200px;
+       
+    
+        
+    }
+    .sour{
+        display: inline;
+        color: #fff;
+        font-size: 40px;
+        
+     
+    }
+    
+    footer h4{
+        font-size: 17px;
+        padding-bottom: 20px;
+        color: #fff;
+    }
+    footer p{
+        font-size: 15px;
+        margin: 0 0 8px 0;
+        color: #fff;
+    }
+    footer a , .one{
+        font-size: 14px;
+        text-decoration: none;
+        margin-bottom: 10px;
+        color: #fff;
+        
+    }
+   .im{
+    width: 80px;
+    height: 80px;
+   }    
+    
+  
+   
+    

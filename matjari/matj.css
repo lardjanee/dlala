@@ -1,0 +1,332 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.header{
+    height: 1000px;
+}
+.logo {
+
+    margin-top: -0px;
+}
+.im{
+    width: 80px;
+    height: 80px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+  
+    
+}
+
+nav{
+    text-align: center;
+    flex: 1;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: -60px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px
+    
+}
+ nav ul li   a {
+    text-decoration: none;
+    color: orangered;
+     font-family: 'Cairo', sans-serif;
+     font-size: 25px;
+     padding: 5px;
+}
+nav ul li  a:hover , .home {
+    color: black;
+    font-size: 32px;
+    transition: 0.6s;
+
+}
+
+
+
+
+
+.xbar .but1 , .but2{
+    height: 60px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: orangered;
+    border: 1px solid white;
+    font-family:'Cairo', sans-serif; 
+    font-size: 17px   ;
+    color: white;
+    
+}
+.but1, .but2 {
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+}
+.xbar{
+    margin-top: 1%;
+}
+.xbar .but1 a , .but2 a{
+    color: #fff;
+    text-decoration: none;
+
+
+}
+.xbar   :hover{
+    background-color: black;
+    transition: 00.1s;
+    
+    
+}
+.xbar{
+    margin-top: 1%;
+}
+form .inp{
+    height: 28px;
+    width: 482.63px;
+    position: absolute;
+    margin-top: 15px;
+   
+    
+    direction: rtl;
+    outline: none;
+    border: none;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    
+    
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    padding: 10px 1px 10px 16px;
+    
+}
+.inp ::placeholder {
+    margin-left: 10px;
+}
+form{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    height: 64px;
+    width: 694px;
+    margin: 0 0;
+    border: orangered solid 2px;
+    border-radius: 30px;
+    margin-top: 80px;
+    
+    
+}
+.searche{
+    margin-left: 520px;
+    margin-top: 20px;
+    position:static;
+    font-size: 20px;
+    color: orangered;
+}
+.btn{
+    height: 60px;
+    width: 130px;
+    border-radius: 30px;
+    background-color: orangered;
+    border: 1px solid white;
+    font-family:'Cairo', sans-serif; 
+    font-size: 23px   ;
+    color: white;
+    
+    
+    
+    
+
+}
+.container{
+    max-width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.ktb1{
+    direction: rtl;
+}
+.ktiba{
+    margin-top: 150px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ktb1{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.ktb1 img{
+    max-width: 100%;
+    padding: 50px 0 ;
+}
+.ktb1 p{
+    font-size: 48px;
+    margin: 25px 0;
+    font-family: 'Cairo' , sans-serif;
+    
+}
+ .ktiba   p{
+    line-height: 1.7;
+}
+.a9r3j{
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    font-family: 'Cairo' , sans-serif;
+    text-decoration: none;
+    margin: 30px 0 ;
+    padding: 8px 30px;
+    border-radius: 30px;
+}
+
+.a9r3j:hover{
+    background-color: black;
+    transition: 0.5s;
+    width: 200px;
+}
+.categories{
+    margin: 70px 0;
+    display: inline-block;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+#aljadid  {
+    
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    background-size: cover;
+    
+    font-family: 'Cairo' , sans-serif;
+    direction: rtl;
+    margin-inline-start: 70px;
+    
+    
+}
+#aljadid h4{
+    font-size: 25px;
+}
+#aljadid input{
+    position: static;
+    height: 50px;
+    padding: 5px;
+    font-size: 23px;
+    width: 350px;
+    border: 2px solid #45b09e;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Cairo' , sans-serif;
+    border-radius: 05px 0px 0px 05px;
+    
+}
+#aljadid button{
+    border-radius: 0px 05px 05px 0px;
+    height: 50px;
+    width: 80px;
+    background-color: #45b09e;
+    border: none;
+    white-space: nowrap;
+    font-family: 'Cairo' , sans-serif;
+    color: #fff;
+
+}
+#aljadid button a {
+    text-decoration: none;
+    font-family: 'Cairo' , sans-serif;
+    color: #fff;
+}
+#aljadid .form{
+    display: flex;
+    
+}
+.picture{
+    height: 350px;
+    width: 350px;
+}
+
+footer{
+    background-color: #002;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Cairo' , sans-serif;
+    margin-top: 50px;
+    
+
+
+
+}
+footer .col {
+    
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-end ;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+  .copy{
+   
+    margin-top: 200px;
+    margin-right: 200px;
+   
+
+    
+}
+.sour{
+    display: inline;
+    color: #fff;
+    font-size: 40px;
+    
+ 
+}
+
+footer h4{
+    font-size: 17px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+footer p{
+    font-size: 15px;
+    margin: 0 0 8px 0;
+    color: #fff;
+}
+footer a , .one{
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+    
+
+
